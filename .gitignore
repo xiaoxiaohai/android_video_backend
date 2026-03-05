@@ -17,8 +17,9 @@ video v2源码+开发文档*/
 # Private documents
 合作草案*
 
-# Claude memory
+# Claude memory & settings
 MEMORY.md
+.claude/
 
 # Node.js
 node_modules/
