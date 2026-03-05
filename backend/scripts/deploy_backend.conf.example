@@ -1,0 +1,17 @@
+# Required
+SERVER_IP="54.160.65.79"
+SSH_KEY="/Users/xiaohai/.ssh/nexa.pem"
+
+# Optional
+SSH_USER="ubuntu"
+SSH_PORT="22"
+REMOTE_DIR="/home/ubuntu/apps/nexa-backend"
+# BACKEND_DIR defaults to backend root
+
+# Deploy behavior
+STRICT_SYNC="true"
+PRESERVE_ENV="true"
+PRESERVE_NODE_MODULES="true"
+RUN_NPM_CI_IF_LOCK_CHANGED="true"
+RELOAD_PM2="false"
+PM2_APP_NAME="nexa-backend"

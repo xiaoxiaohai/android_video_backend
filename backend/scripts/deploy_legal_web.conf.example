@@ -1,0 +1,19 @@
+# Copy to deploy_legal_web.conf and edit values.
+
+# SSH
+SERVER_IP="1.2.3.4"
+SSH_KEY="/path/to/key.pem"
+SSH_USER="ubuntu"
+SSH_PORT="22"
+
+# Local folder (repo path)
+# LEGAL_WEB_DIR="/absolute/path/to/android_video/docs/legal-web"
+
+# Remote folder (nginx root can point here)
+REMOTE_WEB_DIR="/home/ubuntu/apps/nexa-legal-web"
+
+# Behavior
+STRICT_SYNC="true"
+DRY_RUN="false"
+FIX_PERMS="true"
+FIX_HOME_TRAVERSE="true"

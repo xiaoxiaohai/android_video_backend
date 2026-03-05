@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+
+# Admin UI build output (built locally, deployed via rsync)
+admin-ui/dist/
+
+# macOS
+.DS_Store

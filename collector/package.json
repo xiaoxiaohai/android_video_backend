@@ -1,0 +1,17 @@
+{
+  "name": "nexa-collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync:home": "node src/sync.js home",
+    "sync:movie": "node src/sync.js movie",
+    "sync:tv": "node src/sync.js tv",
+    "sync:provider": "node src/sync.js provider",
+    "sync:tv:hydrate": "node src/sync.js tv-hydrate",
+    "sync:full": "node src/sync.js full"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

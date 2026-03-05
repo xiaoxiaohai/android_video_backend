@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Research / Reverse Engineering (local only)
+research/
+
+# Large binaries & archives
+*.zip
+*.apk
+*.aar
+
+# Source code from third parties
+video v2源码+开发文档*/
+
+# Private documents
+合作草案*
+
+# Claude memory
+MEMORY.md
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+output/
